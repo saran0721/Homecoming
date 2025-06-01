@@ -1,2 +1,4 @@
 write-host "hello saravanan"
-Write-Host "Test"
+$list = Get-ChildItem -Path C:\Users\Saran\Homecoming
+
+Write-Output $list
